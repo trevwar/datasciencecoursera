@@ -15,7 +15,8 @@ You should create one R script called run_analysis.R that does the following.
 4.  Appropriately labels the data set with descriptive variable names. 
 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##All of the following information is taken from the ReadMe in the zip file above.[1]
+##Data Description
+All of the following information is taken from the ReadMe in the zip file above.[1]
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -67,3 +68,16 @@ Notes:
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+## Notes on run_analysis.R file
+
+This file assumes that you already have the Samsung data downloaded and extracted into a folder named "UCI HAR Dataset" in your working directory.
+
+You will need the following packages
+*reshape2
+*plyr
+
+If you also need to download the data you will need:
+*downloader
+
+The data used in this project is the mean and standard deviation variables for each subject and each activity.
