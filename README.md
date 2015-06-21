@@ -17,5 +17,5 @@ If not already available, install packages
   reshape2
   plyr
 
-Run source("run_analysis.R"), then it will generate a new file MeanData.txt in the "UCI HAR Dataset" folder.
+Run source("run_analysis.R"), which will generate a new file MeanData.txt in the "UCI HAR Dataset" folder.
 
