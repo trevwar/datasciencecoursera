@@ -5,17 +5,17 @@
 ## 4.  Appropriately labels the data set with descriptive variable names. 
 ## 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##  I ran this in rStudio. 
+##  I ran this in rStudio. I've included the lines 12 to 18 as text as the question says that the data should already be in your working directory.
 
 ## Install package to download the file and unzip it
 
-if (!require("downloader")) {
-    install.packages("downloader")
-}
-library(downloader)
+##if (!require("downloader")) {
+##    install.packages("downloader")
+##}
+##library(downloader)
 
-download(fileUrl, dest="dataset.zip", mode="wb") 
-unzip ("dataset.zip")
+##download(fileUrl, dest="dataset.zip", mode="wb") 
+##unzip ("dataset.zip")
 
 ## Change the working directory to that of the unzipped data and read the tables.
 
