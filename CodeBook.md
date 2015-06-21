@@ -85,8 +85,8 @@ The data used in this project is the mean and standard deviation variables for e
 ## Variables and Summaries calculated
 The mean was calculated for each of the following variables, for each activity and each subject:
 
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
+*tBodyAcc-mean()-X
+*tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
