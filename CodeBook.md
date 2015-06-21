@@ -74,10 +74,10 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 This file assumes that you already have the Samsung data downloaded and extracted into a folder named "UCI HAR Dataset" in your working directory.
 
 You will need the following packages
-*reshape2
-*plyr
+  reshape2
+  plyr
 
 If you also need to download the data you will need:
-*downloader
+  downloader
 
 The data used in this project is the mean and standard deviation variables for each subject and each activity.
