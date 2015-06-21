@@ -19,3 +19,18 @@ If not already available, install packages
 
 Run source("run_analysis.R"), which will generate a new file MeanData.txt in the "UCI HAR Dataset" folder.
 
+##Explanation
+My R script run_analysis.R carries out the following steps:
+
+1.  Change the working directory to that of the unzipped data(sorry, you'll have to change it back later!)
+2.  Reads the data from the tables 
+3.  Write the column names to the tables from the Features table.  I've also added the names Subject, ActivityIndex and ActivityLable for clarity.
+4.  Merge the Subject data with the Test and Train data
+5.  Merge the Test and Train data into a table called zAll and add in the description of the activities studied
+6.  Create a data frame for all data with "mean" in the column heading
+7.  Then remove all data with "meanFreq" as this is not a mean reading
+8.  Create a data frame with for all data with "std" in the column heading
+9.  Merge the Subject, activity, mean and standard deviation data into one data frame
+10.  Melt the readings from the CleanData columns into a single column, grouping by Subject and ActivityLabel
+11.  Calculate the mean for each of the variables
+12.  Output the result to a txt file
