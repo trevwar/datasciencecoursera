@@ -83,6 +83,14 @@ If you also need to download the data you will need:
 The data used in this project is the mean and standard deviation variables for each subject and each activity.
 
 ## Variables and Summaries calculated
+
+The following variables are included in the txt file produced:
+
+- Subject - the number of the subject taking part in the activities
+- ActivityLabel - the description of the type of activity being carried out by the subject
+- variable - the variable being measured
+- mean - the mean value of the variable for the activity and subject
+
 The mean was calculated for each of the following variables, for each activity and each subject:
 
 - tBodyAcc-mean()-X
