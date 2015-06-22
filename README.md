@@ -14,10 +14,18 @@ The purpose of this project was to create one R script called run_analysis.R tha
 Download the data source and unzip into your working directory folder on your local drive. You should now have a "UCI HAR Dataset" folder in your working directory.
 Put run_analysis.R in your working directory.
 If not already available, install packages
-  reshape2
-  plyr
+
+- reshape2
+
+- plyr
+
+You must have a folder named "UCI HAR Dataset" in your working directory for this script to run.
+
+If you run the script it will change your working directory to the current path ~/UCI HAR Dataset.  In order to run the script again you will have to change the working directory back to the folder containing UCI HAR Dataset.
 
 Run source("run_analysis.R"), which will generate a new file MeanData.txt in the "UCI HAR Dataset" folder.
+
+You will get a warning message when running the script when merging the data.  This is ok and won't stop the output from generating.
 
 ##Explanation
 My R script run_analysis.R carries out the following steps:
