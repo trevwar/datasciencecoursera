@@ -65,4 +65,4 @@ library(plyr)
 MeanData <- ddply(CleanDataMelt, c("Subject", "ActivityLabel", "variable"), summarize, mean = mean(value))
 
 ##Output the result to a txt file.
-write.table(MeanData, file = "MeanData.csv", sep = ",", row.name=FALSE, qmethod = "double")
+write.table(MeanData, file = "MeanData.txt", sep = ",", row.name=FALSE, qmethod = "double")
