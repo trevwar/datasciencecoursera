@@ -32,8 +32,8 @@ Features <- read.table("./Features.txt")
 ActivityLabels <- read.table("./activity_labels.txt")
 
 ## Write the column names to the correct tables
-colnames(xTest) <- features[,2]
-colnames(xTrain) <- features[,2]
+colnames(xTest) <- Features[,2]
+colnames(xTrain) <- Features[,2]
 colnames(yTest) <- "ActivityIndex"
 colnames(yTrain) <- "ActivityIndex"
 colnames(subjectTest) <- "Subject"
